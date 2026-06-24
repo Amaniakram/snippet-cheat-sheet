@@ -4,11 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Snippet Cheat Sheet</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>CSS Snippet Cheat Sheet</h1>
+        <p>Welcome to the CSS Snippet Cheat Sheet! Here you'll find a collection of useful CSS snippets to help you style your web pages efficiently.</p>
     </header>
+
+    <main class="grid">
+        <section class="card">
+            <h2> Flexbox Row </h2>
+            <pre><code> .row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        </section>
+
+        <section class="card">
+            <h2> Flexbox Column </h2>
+            <pre><code> .column {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+        </section>
+        <section class="Card">
+            <h2> CSS Grid Layout </h2>
+            <pre><code> .grid {
+                display: grid;
+                width: 100%;
+                grid-template-columns: 
+                repeat(auto-fit, minmax(250px, 1fr));
+            }
+        </section>
+
+        <section class="card">
+            <h2> Linear Gradients</h2>
+            <pre><code> .linear-gradient {
+                background: linear-gradient
+                (to right, #ff7e5f, #feb47b);
+            }
+        </section>
+
+        <section class="card">
+            <h2> Box Transition Glow </h2>
+            <pre><code> .code-card .card-header{
+                border-radius: 8px;
+                transition: all 0.5s ease-in-out;
+            }
+            .code-card:hover.
+            .card-card:hover .card-header {
+                box-shadow: inset 0px 0px 8px 
+                rgba(232, 102, 236, 1), 0 0 15px 
+                rgba(232, 102, 236, 1);
+            }
+    </main>
    
 </body>
 </html>
