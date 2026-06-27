@@ -44,7 +44,18 @@ pre{
     background: linear-gradient(to right, #c937ce65, #8e7ec5);
     padding: 10px;
     border-radius: 5px;
+    cursor: pointer;
     overflow-x: auto;
+}
+
+pre:hover {
+    box-shadow: 0 0 10px rgba(233, 30, 99, 0.6);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 :root {
